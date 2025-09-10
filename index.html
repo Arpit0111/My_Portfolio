@@ -28,7 +28,8 @@
 
         body {
             font-family: 'Poppins', sans-serif;
-            background: linear-gradient(135deg, #f8f9ff 0%, #e6e9ff 100%);
+            /* background: linear-gradient(135deg, #f8f9ff 0%, #e6e9ff 100%); */
+            background: #E7F2EF;
             color: var(--dark);
             line-height: 1.6;
             overflow-x: hidden;
@@ -61,7 +62,7 @@
             padding: 20px 0;
             transition: var(--transition);
             backdrop-filter: blur(10px);
-            background: rgba(248, 249, 255, 0.8);
+            background: #A1C2BD;
             box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
         }
 
@@ -228,7 +229,9 @@
         }
 
         .profile-card:hover {
-            transform: rotateY(10deg) rotateX(10deg);
+            transform: translate3d(0, 0, 90px);
+            transition: 0.8s;
+            transition-duration: 0.9;
         }
 
         .profile-card img {
@@ -237,7 +240,7 @@
             object-fit: cover;
             border-radius: 20px;
             box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
-            border: 5px solid white;
+            border: 5px solid #5682B1;
         }
 
         .profile-card::before {
@@ -266,7 +269,7 @@
             position: absolute;
             font-size: 2rem;
             opacity: 0.7;
-            color: var(--primary);
+            color: rgb(134, 11, 11);
             animation: float 6s infinite ease-in-out;
         }
         
@@ -848,7 +851,7 @@
                 <div class="timeline">
                     <div class="timeline-item">
                         <h4>BCA (Bachelor of Computer Applications)</h4>
-                        <h5>2023 - Present</h5>
+                        <h5>2022 - Present</h5>
                         <p>Currently pursuing my degree with focus on web technologies,Data Analytics, programming in Python ,java , and software development.</p>
                     </div>
                     <div class="timeline-item">
@@ -873,11 +876,11 @@
                         <h4>Download Section</h4>
                         <p>Click to Download Button Check Certificates</p>
                         <div class="btn-group">
-                        <a href="https://drive.google.com/file/d/1r_fm47ncM83jNq-fg9Te8tuP2cDdyvVJ/view?usp=sharing" class="btn btn-primary">All Certificates</a>
+                        <a href="https://drive.google.com/file/d/1r_fm47ncM83jNq-fg9Te8tuP2cDdyvVJ/view?usp=sharing" target="_blank" class="btn btn-primary">All Certificates</a>
                         </div>
                         <p>Click to Download Button Check Certificates Of Google Professional Data Analytics</p>
                         <div>
-                            <a href="https://drive.google.com/file/d/1uvRytrBHwiFMdZCAwFGoo0nnpTjmbxN7/view?usp=drivesdk" class="btn btn-primary">Data Analytics Certificate</a>
+                            <a href="https://drive.google.com/file/d/1uvRytrBHwiFMdZCAwFGoo0nnpTjmbxN7/view?usp=drivesdk" target="_blank" class="btn btn-primary">Data Analytics Certificate</a>
                          </div>
                     </div>
                     <div class="timeline-item">
@@ -887,7 +890,7 @@
                             •Active participant in major college events with contributions in volunteering, coordination,and performances.
                             •Successfully coordinated a Face Painting competition at college, overseeing logistics, participant engagement, and smooth event execution</p>
                      <div class="btn-group">
-                        <a href="https://drive.google.com/file/d/1jWAKQQtwqof_dTPytYfuZuZvKmvr93rF/view?usp=drivesdk" class="btn btn-primary">View Certificates</a>
+                        <a href="https://drive.google.com/file/d/1jWAKQQtwqof_dTPytYfuZuZvKmvr93rF/view?usp=drivesdk" target="_blank" class="btn btn-primary">View Certificates</a>
                     </div>
                 </div>
             </div>
@@ -1041,7 +1044,7 @@
                         <p>Technologies Used: HTML, CSS, JavaScript, LocalStorage
                             Created a simple web-based voting system where users can vote for candidates, and the
                             system tracks votes using browser local storage.</p>
-                        <a href="https://github.com/Arpit0111/Online-voting-sample" class="btn btn-secondary">View Details</a>
+                        <a href="https://github.com/Arpit0111/Online-voting-sample" target="_blank" class="btn btn-secondary">View Details</a>
                     </div>
                 </div>
                 <div class="project-card">
@@ -1059,7 +1062,7 @@
                         <p>Tools: Python, Pandas, NumPy, Scikit-learn, Matplotlib
                             Achieved an accuracy of 84% on the test dataset.
                             Dataset used: Graduate Admissions Dataset from Kaggle.</p>
-                        <a href="https://github.com/Arpit0111/Admission_Prediction" class="btn btn-secondary">View Details</a>
+                        <a href="https://github.com/Arpit0111/Admission_Prediction" target="_blank" class="btn btn-secondary">View Details</a>
                     </div>
                 </div>
                 <div class="project-card">
@@ -1074,7 +1077,7 @@
                             <span class="project-tag">Tkinter</span>
                         </div>
                         <p>Designed a GUI-based E-Billing System using Tkinter, integrated QR code generation for payments, and implemented CSV-based billing data storage for efficient record keeping</p>
-                        <a href="https://github.com/Arpit0111/E_BILL-USING-PYTHON-" class="btn btn-secondary">View Details</a>
+                        <a href="https://github.com/Arpit0111/E_BILL-USING-PYTHON-" target="_blank" class="btn btn-secondary">View Details</a>
                     </div>
                 </div>
             </div>
@@ -1155,11 +1158,11 @@
     <footer>
         <div class="container">
             <div class="social-links">
-                <a href="https://www.facebook.com/arpit.pandey.18062533" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.facebook.com/arpit.pandey.18062533" target="_blank" class="social-link"><i class="fab fa-facebook-f"></i></a>
                 <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
                 <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/arpit-pandey-901a2a271" class="social-link"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://github.com/Arpit0111" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/arpit-pandey-901a2a271" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Arpit0111" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
             </div>
             <p class="copyright">© 2025 Arpit Pandey  | All Rights Reserved @indiantech made  with Arpit  </p>
         </div>
